@@ -1,0 +1,194 @@
+---
+title: "Distractibility from childhood to adulthood"
+author: "Roxane Hoyer"
+date: "2021.11.25"
+output:
+  rmdformats::readthedown:
+    self_contained: true
+    thumbnails: true
+    lightbox: true
+    gallery: false
+    highlight: tango
+    code_folding: "hide"
+    toc_depth: 1
+  html_document:
+    # code_folding: "hide"
+    latex_engine: xelatex
+    self_contained: yes
+    fig_caption: yes
+   
+# Le problème df not found venait du fait que je demandais au prog de générer le fichier html dans un dossier spécifique 
+---
+<style>
+body {
+text-align: justify}
+</style>
+
+```{css, echo=FALSE}
+
+h1{color:#17293D;}
+h2{color:#335072;}
+h3{color:#496B91;}
+h4{color:#5E7EA2;}
+
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #9b9ea0;
+    z-index: 200;
+    font-size: 16px;
+}
+
+
+#sidebar h2 {
+    z-index: 200;
+    background-color: #2e6c88;
+    text-align: center;
+    padding: 0.809em;
+    display: block;
+    font-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 0.809em;
+}
+
+
+
+#sidebar a {
+    display: inline-block;
+    line-height: 18px;
+    padding: 0.4045em 1.618em;
+    display: block;
+    position: relative;
+    font-size: 90%;
+    color: #ffffff;
+    direction: ltr;
+    text-decoration: none;
+}
+
+  
+#toc ul.nav li.active a {
+    color: #000000 !important;
+    font-weight: bold;
+    background-color: #aac8d8;
+    border-right: solid 0px white !important;
+}
+  
+
+
+#main :not(.leaflet-control) > a {
+    background-image: linear-gradient(180deg,#252671,#82a7d6);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 2em;
+    color: #53bfbb;
+    font-weight: 300;
+    padding: .125em 1px 0 1px;
+    transition: background-position .15s, color .15s;
+}
+
+```
+
+<center>
+![Poster CERVO event 2021](C:\Users\Roxane Hoyer\Desktop\Interventions\Posters\CERVO_event_nov2021\Diapositive1.png)
+</center>
+
+# Results summary
+
+
+Preliminary behavioral and EEG results from this study indicate that voluntary  orienting, anticipatory and sustained attention processes are still maturing in children from 6 to 13 years of age. The EEG findings suggest that the maturation of attentional anticipation and preparation is supported by a shift from a reactive to a proactive strategy.  Distraction and arousal effect linked to the distractor occurrence in the CAT decrease from 6yo to adulthood.  Increased behavioral distraction in children would, at least partially, result from immature TD reorientation processes. Furthermore, the development of distractibility is associated with an increase in motor control between 6 and 11yo and a decrease in impulsivity between age 14 and adulthood, probably in line with the reactive to proactive shift in cognitive control. 
+
+Taken together, these results suggest that distractibility in children is supported by immature TD and BU attention processes. Further analysis of the EEG data will help to better understand which brain maturation processes underlie the behavioral development of distractibility during childhood.    
+
+
+
+
+# Behavioral and EEG studies
+
+## Distractibility using the CAT paradigm
+
+Bidet-Caulet, A., Bottemanne, L., Fonteneau, C., Giard, M.-H., & Bertrand, O. (2015). Brain dynamics of distractibility: Interaction between top-down and bottom-up mechanisms of auditory attention. Brain Topography, 28(3), 423–436. https://doi.org/10.1007/s10548-014-0354-x
+
+Hoyer, R. S., Elshafei, H., Hemmerlin, J., Bouet, R., & Bidet-Caulet, A. (2021). Why Are Children So Distractible? Development of Attention and Motor Control From Childhood to Adulthood. Child Development, 92(4), e716–e737. https://doi.org/10.1111/cdev.13561
+
+Hoyer, R., Pakulak, E., Bidet-Caulet, A., & Karns, C. (in revision). The development of attention and distractibility in preschool children from higher and lower socioeconomic status backgrounds. https://doi.org/10.1101/2021.04.06.438161
+
+Hoyer R.S., Riedinger M., Abdoun, O.,  Bouet R., Elshafei H., Bidet-Caulet A. (in prep.) When do we become more prone to distraction? Behavioral evolution of the different components of distractibility with aging.  
+
+Masson, R., & Bidet-Caulet, A. (2019). Fronto-central P3a to distracting sounds: An index of their arousing properties. NeuroImage, 185, 164–180. https://doi.org/10.1016/j.neuroimage.2018.10.041
+</b>
+
+## Other paradigms
+</b>
+<u><strong><p style="color:DodgerBlue"> Voluntary orienting </p></strong></u>
+
+
+Corbetta, M., Patel, G., & Shulman, G. L. (2008). The reorienting system of the human brain: From environment to theory of mind. Neuron, 58, 306–324. https://
+doi.org/10.1016/j.neuron.2008.04.017 Corbetta, M., & Shulman, G. L. (2002). Control of goal-directed and stimulus-driven attention in the brain. Nature
+Reviews Neuroscience, 3, 201–215. https://doi.org/10.1038/nrn755
+
+Mezzacappa, E. (2004). Alerting, orienting, and executive attention: Developmental properties and sociodemographic correlates in an epidemiological sample of young, urban children. Child Development, 75, 1373–1386. https://doi.org/10.1111/j.1467-8624.2004.00746.x
+
+Näätanen, R. (1992). Attention and brain function. Hillsdale, NJ: Erlbaum.
+
+Posner, M. I. (1980). Orienting of attention. Quarterly Journal of Experimental Psychology, 32, 3–25. https://doi.org/10.1080/00335558008248231
+
+Posner, M. I. (2012). Attentional networks and consciousness. Frontiers in Psychology, 3. https://doi.org/10.3389/fpsyg.2012.00064
+
+Padilla, M. L., Pfefferbaum, A., Sullivan, E. V., Baker, F. C., & Colrain, I. M. (2014). Dissociation of preparatory attention and response monitoring maturation during adolescence. Clinical Neurophysiology, 125, 962–970. https://doi.org/10.1016/j.clinph.2013.10.012
+</b>
+
+<u><strong><p style="color:DarkBlue"> Sustained attention </p></strong></u>
+
+Parasuraman, R., Nestor, P. G., & Greenwood, P. (1989). Sustained-attention capacity in young and older adults. Psychology and Aging, 4, 339–345. https://doi.org/10.1037/0882-7974.4.3.339
+
+
+Petton, M., Perrone-Bertolotti, M., Mac-Auliffe, D., Bertrand, O., Aguera, P.-E., Sipp, F., . . . Lachaux, J.-P. (2019). BLAST: A short computerized test to measure the ability to stay on task. Normative behavioral data and detailed
+cortical dynamics. Neuropsychologia, 134, 107151. https://doi.org/10.1016/j.neuropsychologia.2019.107151
+
+<u><strong><p style="color:FireBrick"> Distraction </p></strong></u>
+
+Horvath, J., Czigler, I., Birkas, E., Winkler, I., & Gervai, J.(2009). Age-related differences in distraction and reorientation in an auditory task. Neurobiology of Aging, 30, 1157–1172. https://doi.org/10.1016/j.neurobiolaging.2007.10.003
+
+Olesen, P. J., Macoveanu, J., Tegner, J., & Klingberg, T.
+(2007). Brain activity related to working memory and distraction in children and adults. Cerebral Cortex, 17, 1047–1054. https://doi.org/10.1093/cercor/bhl014
+
+Wetzel, N., & Schr€oger, E. (2007). Cognitive control of involuntary attention and distraction in children and adolescents. Brain Research, 1155, 134–146. https://doi. org/10.1016/j.brainres.2007.04.022
+
+Wetzel, N., Widmann, A., Berti, S., & Schr€oger, E. (2006).The development of involuntary and voluntary attention from childhood to adulthood: A combined behavioral and event-related potential study. Clinical Neurophysiology, 117, 2191–2203. https://doi.org/10.1016/j.clinph.2006.06.717
+
+Wetzel, N., & Schr€oger, E. (2014). On the development of auditory distraction: A review: Development of auditory distraction. PsyCh Journal, 3, 72–91. https://doi.org/10.1002/pchj.49
+
+Ruhnau, P., Wetzel, N., Widmann, A., & Schröger, E.(2010). The modulation of auditory novelty processing by working memory load in school age children and
+adults: A combined behavioral and event related potential study. BMC Neuroscience, 11, 126. https://doi.org/10.1186/1471-2202-11-126
+</b>
+
+<u><strong><p style="color:Orange"> Phasic arousal </p></strong></u>
+
+Aston-Jones, G., & Cohen, J. D. (2005). An integrative theory of locus coeruleus-norepinephrine function: Adaptive gain and optimal performance. Annual Review of Neuroscience, 28, 403–450. https://doi.org/10.1146/annurev.neuro.28.061604.135709
+
+Duncan, M. J., Smith, M., Bryant, E., Eyre, E., Cook, K., Hankey, J., . . . Jones, M. V. (2016). Effects of increasing and decreasing physiological arousal on anticipation timing performance during competition and practice. European Journal of Sport Science, 16, 27–35. https://doi.org/10.1080/17461391.2014.979248
+
+Max, C., Widmann, A., Kotz, S. A., Schröger, E., & Wetzel, N. (2015). Distraction by emotional sounds: Disentangling arousal benefits and orienting costs. Emotion, 15, 428–437. https://doi.org/10.1037/a0039041
+
+Wetzel, N., Schröger, E., & Widmann, A. (2016). Distraction
+by novel and pitch-deviant sounds in children. Frontiers in Psychology, 7. https://doi.org/10.3389/fpsyg.2016.01949
+
+
+
+</b>
+<u><strong><p style="color:Gray"> Impulsivity </p></strong></u>
+
+Barratt, E. S., & Patton, J. H. (1983). Impulsivity: Cognitive, behavioral, and psycholophysiological correlates. In M. Zuckerman (Ed.), Biological bases of sensation seeking, impulsivity and anxiety (pp. 77–122). Hillsdale, NJ: Erlbaum.
+
+Houston, R. J., & Stanford, M. S. (2001). Mid-latency evoked potentials in self-reported impulsive aggression. International Journal of Psychophysiology, 40, 1–15. https://doi.org/10.1016/S0167-8760(00)00120-3
+
+Munakata, Y., Snyder, H. R., & Chatham, C. H. (2012). Developing cognitive control: Three key transitions. Current Directions in Psychological Science, 21, 71–77. https://doi.org/10.1177/0963721412436807
+
+Zhang, S., Hu, S., Hu, J., Wu, P.-L., Chao, H. H., & Li, C. R. (2015). Barratt impulsivity and neural regulation of physiological arousal. PLoS One, 10. https://doi.org/10.1371/journal.pone.0129139
+
+
